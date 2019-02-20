@@ -18,6 +18,6 @@ int power(float base, int exponent)
 
     base = newNumber * base;
 
-	return base;
+    return base;
 }
 
