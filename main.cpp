@@ -5,14 +5,15 @@ using namespace std;
 
 int main()
 {
-    square(10);
-
+    
     return 0;
 }
 
-void square(int number)
+void power(int base, int exponent)
 {
-    number = number*number;
+    int newNumber = base*exponent;
 
-    cout << number;
+    base = newNumber * base;
+
+    cout << base;
 }
