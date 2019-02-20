@@ -5,7 +5,8 @@ using namespace std;
 
 int main()
 {
-    
+    power(10, 2);
+    system("pause");
     return 0;
 }
 
