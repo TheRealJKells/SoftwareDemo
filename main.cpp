@@ -7,7 +7,7 @@ void power(float base, int exponent);
 
 int main()
 {
-    power(10, 2);
+    cout << power(10, 2) << endl;
     system("pause");
     return 0;
 }
