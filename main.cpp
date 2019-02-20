@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void power(int base, int exponent);
+void power(float base, int exponent);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-void power(int base, int exponent)
+void power(float base, int exponent)
 {
     int newNumber = base*exponent;
 
@@ -20,3 +20,4 @@ void power(int base, int exponent)
 
     cout << base;
 }
+
