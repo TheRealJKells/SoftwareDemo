@@ -1,7 +1,9 @@
 #include<iostream>
-#include <math>
+#include <cmath>
 
 using namespace std;
+
+void power(int base, int exponent);
 
 int main()
 {
